@@ -1,0 +1,31 @@
+{
+    "name": "riesjart/laravel-vue-table-sorting",
+    "description": "Apply sorting of Vue Table on Laravel Eloquent queries",
+    "keywords": [
+        "vuetable",
+        "laravel",
+        "vue",
+        "eloquent",
+        "scope",
+        "model",
+        "sorting"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard van Baarsen",
+            "email": "richardvanbaarsen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "^5.0,<5.4",
+        "illuminate/http": "^5.0,<5.4",
+        "illuminate/support": "^5.0,<5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Riesjart\\VueTable\\": "src/"
+        }
+    }
+}
