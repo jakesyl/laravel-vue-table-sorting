@@ -59,8 +59,11 @@ class VueTableSortingScope implements Scope
                 $query->orderBy($column, $direction);
             }
 
-            call_user_func($this->default, $query);
+            if ($this->default) {
 
+                call_user_func($this->default, $query);
+            }
+            
             return $query;
 
         }, $this->default);
