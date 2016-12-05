@@ -37,7 +37,7 @@ class VueTableSortingScope implements Scope
 
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function apply(Builder $query, Model $model)
     {
