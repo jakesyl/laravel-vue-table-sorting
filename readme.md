@@ -1,1 +1,0 @@
-Apply sorting of [`vuetable-2`](https://github.com/ratiw/vuetable-2) on Laravel Eloquent queries. 
