@@ -2,7 +2,7 @@ Apply sorting of [`vuetable-2`](https://github.com/ratiw/vuetable-2) on Laravel 
 
 ## Version
 
-[WIP]
+Current release: **v1.0.0**
 
 ## Installation
 
