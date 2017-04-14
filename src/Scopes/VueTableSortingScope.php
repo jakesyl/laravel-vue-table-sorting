@@ -35,7 +35,6 @@ class VueTableSortingScope implements Scope
         $this->inputKey = $inputKey;
     }
 
-
     /**
      * {@inheritdoc}
      */
@@ -63,12 +62,11 @@ class VueTableSortingScope implements Scope
 
                 call_user_func($this->default, $query);
             }
-            
+
             return $query;
 
         }, $this->default);
     }
-
 
     /**
      * @return mixed
