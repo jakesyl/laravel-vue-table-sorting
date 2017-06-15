@@ -15,7 +15,7 @@ trait VueTableSortable
      *
      * @return void
      */
-    public function scopeOrderByVueTable(Builder $query, $default = null, $inputKey = 'sort')
+    public function scopeOrderByVueTable(Builder $query, Closure $default = null, $inputKey = 'sort')
     {
         $query->withGlobalScope('vueTableSorting', new VueTableSortingScope($default, $inputKey));
     }

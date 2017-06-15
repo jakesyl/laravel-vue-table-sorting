@@ -28,7 +28,7 @@ class VueTableSortingScope implements Scope
      * @param Closure|null $default
      * @param string $inputKey
      */
-    public function __construct($default = null, $inputKey = 'sort')
+    public function __construct(Closure $default = null, $inputKey = 'sort')
     {
         $this->default = $default;
 
