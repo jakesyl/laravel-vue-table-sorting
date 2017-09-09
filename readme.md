@@ -2,7 +2,7 @@ Apply sorting of [`vuetable-2`](https://github.com/ratiw/vuetable-2) on Laravel 
 
 ## Version
 
-Current release: **v1.1.0**
+Current release: **v1.2.0**
 
 This repository uses [Semantic Versioning (SemVer) v2.0.0](http://semver.org/spec/v2.0.0.html).
 
