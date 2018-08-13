@@ -1,5 +1,5 @@
 {
-    "name": "riesjart/laravel-vue-table-sorting",
+    "name": "jakesyl/laravel-vue-table-sorting",
     "description": "Apply sorting of Vue Table on Laravel Eloquent queries",
     "keywords": [
         "vuetable",
